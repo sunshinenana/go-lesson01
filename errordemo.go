@@ -21,7 +21,7 @@ func main() {
 }
 
 func init() {
-	DB, err := sql.Open("mysql", "root:queen-1992@tcp(127.0.0.1:3306)/test")
+	DB, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test")
 	if err != nil {
 		log.Fatal(err)
 	}
